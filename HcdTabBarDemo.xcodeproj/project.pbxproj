@@ -24,6 +24,7 @@
 		0C5B75481D37750700D5DFA2 /* LLMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B753D1D37750700D5DFA2 /* LLMineViewController.xib */; };
 		0C5B75491D37750700D5DFA2 /* LLSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B75401D37750700D5DFA2 /* LLSameCityViewController.m */; };
 		0C5B754A1D37750700D5DFA2 /* LLSameCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B75411D37750700D5DFA2 /* LLSameCityViewController.xib */; };
+		0C5B754C1D377CE100D5DFA2 /* HcdTabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B754B1D377CE100D5DFA2 /* HcdTabBar.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		0C5B753F1D37750700D5DFA2 /* LLSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSameCityViewController.h; sourceTree = "<group>"; };
 		0C5B75401D37750700D5DFA2 /* LLSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSameCityViewController.m; sourceTree = "<group>"; };
 		0C5B75411D37750700D5DFA2 /* LLSameCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLSameCityViewController.xib; sourceTree = "<group>"; };
+		0C5B754B1D377CE100D5DFA2 /* HcdTabBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HcdTabBar.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				0C5B752A1D37690400D5DFA2 /* HcdTabBarItem.m */,
 				0C5B752C1D376DCA00D5DFA2 /* HcdTabBar.h */,
 				0C5B752D1D376DCA00D5DFA2 /* HcdTabBar.m */,
+				0C5B754B1D377CE100D5DFA2 /* HcdTabBar.bundle */,
 			);
 			path = HcdTabBar;
 			sourceTree = SOURCE_ROOT;
@@ -234,6 +237,7 @@
 				0C5B754A1D37750700D5DFA2 /* LLSameCityViewController.xib in Resources */,
 				0C5B75461D37750700D5DFA2 /* LLMessageViewController.xib in Resources */,
 				0C5B75481D37750700D5DFA2 /* LLMineViewController.xib in Resources */,
+				0C5B754C1D377CE100D5DFA2 /* HcdTabBar.bundle in Resources */,
 				0C5B75211D3764C800D5DFA2 /* LaunchScreen.storyboard in Resources */,
 				0C5B75441D37750700D5DFA2 /* LLHomeViewController.xib in Resources */,
 				0C5B751E1D3764C800D5DFA2 /* Assets.xcassets in Resources */,

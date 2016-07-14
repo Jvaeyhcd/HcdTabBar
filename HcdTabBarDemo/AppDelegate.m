@@ -42,9 +42,9 @@
     HcdTabBar *tabBar = [[HcdTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
     tabBar.tabBarItemAttributes = @[@{kHcdTabBarItemAttributeTitle : @"首页", kHcdTabBarItemAttributeNormalImageName : @"home_normal", kHcdTabBarItemAttributeSelectedImageName : @"home_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemNormal)},
                                                                         @{kHcdTabBarItemAttributeTitle : @"同城", kHcdTabBarItemAttributeNormalImageName : @"mycity_normal", kHcdTabBarItemAttributeSelectedImageName : @"mycity_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemNormal)},
+                                    @{kHcdTabBarItemAttributeTitle : @"发布", kHcdTabBarItemAttributeNormalImageName : @"post_normal", kHcdTabBarItemAttributeSelectedImageName : @"post_normal", kHcdTabBarItemAttributeType : @(HcdTabBarItemRise)},
                                                                         @{kHcdTabBarItemAttributeTitle : @"消息", kHcdTabBarItemAttributeNormalImageName : @"message_normal", kHcdTabBarItemAttributeSelectedImageName : @"message_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemNormal)},
-                                    @{kHcdTabBarItemAttributeTitle : @"发布", kHcdTabBarItemAttributeNormalImageName : @"account_normal", kHcdTabBarItemAttributeSelectedImageName : @"account_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemNormal)},
-                                    @{kHcdTabBarItemAttributeTitle : @"我的", kHcdTabBarItemAttributeNormalImageName : @"account_normal", kHcdTabBarItemAttributeSelectedImageName : @"account_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemRise)}];
+                                    @{kHcdTabBarItemAttributeTitle : @"我的", kHcdTabBarItemAttributeNormalImageName : @"account_normal", kHcdTabBarItemAttributeSelectedImageName : @"account_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemNormal)}];
     tabBar.delegate = self;
     [tabBarController.tabBar addSubview:tabBar];
     
