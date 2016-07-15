@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LLHomeViewController">
@@ -20,7 +20,6 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8n-CV-DKc">
                             <rect key="frame" x="0.0" y="20" width="45" height="44"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="45" id="9aJ-vg-URy"/>
                                 <constraint firstAttribute="height" constant="44" id="Cep-oO-bVa"/>
@@ -29,7 +28,6 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njW-Wi-ClT">
                             <rect key="frame" x="555" y="20" width="45" height="44"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="45" id="5bK-3a-pon"/>
                                 <constraint firstAttribute="height" constant="44" id="aQF-nP-XGa"/>
@@ -38,13 +36,11 @@
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_title_slogan" translatesAutoresizingMaskIntoConstraints="NO" id="kZP-lq-2gs">
                             <rect key="frame" x="60" y="20" width="480" height="44"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="44" id="06M-dW-BqX"/>
                             </constraints>
                         </imageView>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" red="0.99215686274509807" green="0.83921568627450982" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="kZP-lq-2gs" firstAttribute="leading" secondItem="RgT-D6-Msz" secondAttribute="leading" constant="60" id="3mU-YH-0Kn"/>
@@ -69,14 +65,12 @@
                     <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="首页" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKM-BB-3LZ">
-                            <rect key="frame" x="282" y="257" width="36" height="21.5"/>
-                            <animations/>
+                            <rect key="frame" x="282" y="257" width="36" height="22"/>
                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="ZKM-BB-3LZ" firstAttribute="centerX" secondItem="gsc-Q9-e9b" secondAttribute="centerX" id="bKM-dl-vQH"/>
@@ -84,7 +78,6 @@
                     </constraints>
                 </view>
             </subviews>
-            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="gsc-Q9-e9b" secondAttribute="trailing" id="DLL-HC-rZo"/>

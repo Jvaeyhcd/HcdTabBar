@@ -11,8 +11,6 @@
 // 屏幕宽度
 #define HCD_TABBAR_SCREEN_WIDTH          [[UIScreen mainScreen] bounds].size.width
 
-#define HcdTabbarImageSrcName(file)               [@"HcdTabBar.bundle" stringByAppendingPathComponent:file]
-
 #import "HcdTabBar.h"
 
 @interface HcdTabBar ()
@@ -38,7 +36,7 @@
 - (void)config {
     self.backgroundColor = [UIColor whiteColor];
     UIImageView *topLine = [[UIImageView alloc] initWithFrame:CGRectMake(0, -5, HCD_TABBAR_SCREEN_WIDTH, 5)];
-    topLine.image = [UIImage imageNamed:HcdTabbarImageSrcName(@"tapbar_top_line")];
+    topLine.image = [UIImage imageNamed:@"tapbar_top_line"];
     [self addSubview:topLine];
 }
 

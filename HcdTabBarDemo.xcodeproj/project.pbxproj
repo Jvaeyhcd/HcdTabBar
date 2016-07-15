@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C396AFC1D387B63006FB6BE /* tapbar_top_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C396AFB1D387B63006FB6BE /* tapbar_top_line@2x.png */; };
 		0C5B75131D3764C800D5DFA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B75121D3764C800D5DFA2 /* main.m */; };
 		0C5B75161D3764C800D5DFA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B75151D3764C800D5DFA2 /* AppDelegate.m */; };
 		0C5B75191D3764C800D5DFA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B75181D3764C800D5DFA2 /* ViewController.m */; };
@@ -24,10 +25,10 @@
 		0C5B75481D37750700D5DFA2 /* LLMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B753D1D37750700D5DFA2 /* LLMineViewController.xib */; };
 		0C5B75491D37750700D5DFA2 /* LLSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B75401D37750700D5DFA2 /* LLSameCityViewController.m */; };
 		0C5B754A1D37750700D5DFA2 /* LLSameCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B75411D37750700D5DFA2 /* LLSameCityViewController.xib */; };
-		0C5B754C1D377CE100D5DFA2 /* HcdTabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B754B1D377CE100D5DFA2 /* HcdTabBar.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C396AFB1D387B63006FB6BE /* tapbar_top_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapbar_top_line@2x.png"; sourceTree = "<group>"; };
 		0C5B750E1D3764C800D5DFA2 /* HcdTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HcdTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5B75121D3764C800D5DFA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C5B75141D3764C800D5DFA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		0C5B753F1D37750700D5DFA2 /* LLSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSameCityViewController.h; sourceTree = "<group>"; };
 		0C5B75401D37750700D5DFA2 /* LLSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSameCityViewController.m; sourceTree = "<group>"; };
 		0C5B75411D37750700D5DFA2 /* LLSameCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLSameCityViewController.xib; sourceTree = "<group>"; };
-		0C5B754B1D377CE100D5DFA2 /* HcdTabBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HcdTabBar.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C396AFA1D387B63006FB6BE /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				0C396AFB1D387B63006FB6BE /* tapbar_top_line@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		0C5B75051D3764C800D5DFA2 = {
 			isa = PBXGroup;
 			children = (
@@ -119,11 +127,11 @@
 		0C5B75281D37650900D5DFA2 /* HcdTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				0C396AFA1D387B63006FB6BE /* resource */,
 				0C5B75291D37690400D5DFA2 /* HcdTabBarItem.h */,
 				0C5B752A1D37690400D5DFA2 /* HcdTabBarItem.m */,
 				0C5B752C1D376DCA00D5DFA2 /* HcdTabBar.h */,
 				0C5B752D1D376DCA00D5DFA2 /* HcdTabBar.m */,
-				0C5B754B1D377CE100D5DFA2 /* HcdTabBar.bundle */,
 			);
 			path = HcdTabBar;
 			sourceTree = SOURCE_ROOT;
@@ -237,10 +245,10 @@
 				0C5B754A1D37750700D5DFA2 /* LLSameCityViewController.xib in Resources */,
 				0C5B75461D37750700D5DFA2 /* LLMessageViewController.xib in Resources */,
 				0C5B75481D37750700D5DFA2 /* LLMineViewController.xib in Resources */,
-				0C5B754C1D377CE100D5DFA2 /* HcdTabBar.bundle in Resources */,
 				0C5B75211D3764C800D5DFA2 /* LaunchScreen.storyboard in Resources */,
 				0C5B75441D37750700D5DFA2 /* LLHomeViewController.xib in Resources */,
 				0C5B751E1D3764C800D5DFA2 /* Assets.xcassets in Resources */,
+				0C396AFC1D387B63006FB6BE /* tapbar_top_line@2x.png in Resources */,
 				0C5B751C1D3764C800D5DFA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

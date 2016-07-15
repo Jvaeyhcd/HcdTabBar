@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HcdTabBar"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A custom TabBar"
 
   # This description is used to generate tags and improve search results.
@@ -105,8 +105,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "HcdTabBar/HcdTabBar.bundle"
-  # s.resources = "Resources/*.png"
+  # s.resource  = "HcdTabBar/HcdTabBar.bundle"
+  s.resources = "HcdTabBar/resource/**/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
