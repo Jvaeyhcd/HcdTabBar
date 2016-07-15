@@ -17,6 +17,8 @@
 
 @interface HcdTabBar : UIView
 
+- (instancetype) initWithFrame:(CGRect)frame topLineImage:(UIImage *)topLineImage;
+
 @property (nonatomic, copy) NSArray<NSDictionary *> *tabBarItemAttributes;
 @property (nonatomic, weak) id<HcdTabBarDelegate> delegate;
 

@@ -21,11 +21,11 @@
 
 @implementation HcdTabBar
 
-- (instancetype) initWithFrame:(CGRect)frame {
+- (instancetype) initWithFrame:(CGRect)frame topLineImage:(UIImage *)topLineImage {
     self = [super initWithFrame:frame];
     
     if (self) {
-        [self config];
+        [self configWithTopLineImage:topLineImage];
     }
     
     return self;
@@ -33,10 +33,10 @@
 
 #pragma mark - private
 
-- (void)config {
+- (void)configWithTopLineImage:(UIImage *)topLineImage {
     self.backgroundColor = [UIColor whiteColor];
     UIImageView *topLine = [[UIImageView alloc] initWithFrame:CGRectMake(0, -5, HCD_TABBAR_SCREEN_WIDTH, 5)];
-    topLine.image = [UIImage imageNamed:@"tapbar_top_line"];
+    topLine.image = topLineImage;
     [self addSubview:topLine];
 }
 

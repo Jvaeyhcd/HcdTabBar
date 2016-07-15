@@ -39,7 +39,7 @@
     [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
     
-    HcdTabBar *tabBar = [[HcdTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
+    HcdTabBar *tabBar = [[HcdTabBar alloc] initWithFrame:tabBarController.tabBar.bounds topLineImage:[UIImage imageNamed:@"tapbar_top_line"]];
     tabBar.tabBarItemAttributes = @[@{kHcdTabBarItemAttributeTitle : @"首页", kHcdTabBarItemAttributeNormalImageName : @"home_normal", kHcdTabBarItemAttributeSelectedImageName : @"home_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemNormal)},
                                                                         @{kHcdTabBarItemAttributeTitle : @"同城", kHcdTabBarItemAttributeNormalImageName : @"mycity_normal", kHcdTabBarItemAttributeSelectedImageName : @"mycity_highlight", kHcdTabBarItemAttributeType : @(HcdTabBarItemNormal)},
                                     @{kHcdTabBarItemAttributeTitle : @"发布", kHcdTabBarItemAttributeNormalImageName : @"post_normal", kHcdTabBarItemAttributeSelectedImageName : @"post_normal", kHcdTabBarItemAttributeType : @(HcdTabBarItemRise)},
